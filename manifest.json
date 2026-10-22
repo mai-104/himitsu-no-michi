@@ -1,0 +1,19 @@
+{
+  "id": "/himitsu-no-michi/",
+  "name": "迷子の仲間と秘密の道",
+  "short_name": "秘密の道",
+  "description": "道をつないで、迷子の仲間を導くパズル",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fbf3e2",
+  "theme_color": "#fbf3e2",
+  "lang": "ja",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

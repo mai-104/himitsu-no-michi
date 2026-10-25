@@ -1,6 +1,6 @@
 // 迷子の仲間と秘密の道: オンラインでもオフラインでも遊べるようにするサービスワーカー
 // ファイルを更新したら、下の CACHE の数字を変えると端末に確実に反映されます
-const CACHE = "hmc-v1";
+const CACHE = "hmc-v2";
 const FILES = ["./", "index.html", "manifest.json", "icon-192.png", "icon-512.png"];
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(FILES)).then(() => self.skipWaiting()));
